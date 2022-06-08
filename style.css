@@ -20,3 +20,38 @@ body {
     justify-content: space-between;
     padding: 5px 15px;
 }
+
+.content_section {
+    display: flex;
+    flex: 1;
+    height: 600px;
+    background-color: lemonchiffon;
+}
+
+.left_banner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: lightblue;
+    align-items: center;
+    padding: 5px 10px;
+    max-width: 100px;
+}
+
+.left_banner ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right_side {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+
+}
+
+ul {
+    list-style: none;
+}
