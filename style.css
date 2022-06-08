@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.top_banner {
+    display: flex;
+    background-color:navy;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+    max-height: 70px;
+}
+
+.under_banner {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
